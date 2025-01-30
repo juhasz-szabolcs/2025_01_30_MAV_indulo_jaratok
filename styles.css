@@ -1,0 +1,22 @@
+table {
+    background-color: green;
+    color: white;
+    font-family:'Gill Sans MT';
+    font-size: 25px;
+    width: 70%;
+    margin-left: 30px;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: green; /* Világos szürke háttér a páros sorokhoz */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(94, 190, 137); /* Fehér háttér a páratlan sorokhoz */
+}
+
+.erkezes {
+    font-size: 17px;
+    font-family: Gill Sans;
+}
